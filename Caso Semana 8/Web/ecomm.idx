@@ -1,0 +1,19 @@
+; Ecomm Index File
+; v2.08
+VERSION=2.08.002
+TITLE=Bitnova
+CURRENCY=$
+COUNTRY=Guatemala
+#0|'Bitnova'||'index.html'||||
+#4|'Servicios/Productos'||'about.html'||||
+#1|'iPad Air (13 pulgadas, M3 chip)'|'6500.00'|'10.htm'||||
+#1|'MacBook Air (13", M4 chip)'|'9900.00'|'11.htm'||||
+#1|'iPhone 16 (128 GB)'|'5800.00'|'12.htm'||||
+#1|'Apple Watch Series 10 (GPS)'|'3200.00'|'13.htm'||||
+#1|'AirPods Pro (2nd Generation)'|'2300.00'|'14.htm'||||
+#4|'Noticias'||'news.html'||||
+#4|'Blogs'||'contact.html'||||
+#4|'Sobre Nosotros'||'6.htm'||||
+#4|'Contacto'||'7.htm'||||
+#4|'Preguntas Frecuentes'||'8.htm'||||
+#4|'Invierta con Nosotros'||'9.htm'||||

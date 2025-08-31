@@ -1,0 +1,323 @@
+
+
+<HTML>
+<HEAD>
+
+
+
+  <TITLE>AirPods Pro (2nd Generation)</TITLE>
+
+
+
+  <META NAME="description" content="AirPods Pro (2nd Generation)">
+  <META NAME="keywords" CONTENT="">
+  <META NAME="generator" content="eComm PRO v2.08">
+  <META NAME="resource-type" content="document">
+  <META NAME="distribution" content="Global">
+  <META NAME="robots" content="All">
+  <META NAME="copyright" content="Copyright ©2001 Bitnova">
+
+
+
+  <style type="text/css">A:hover{color:#FFFFA6;}
+.m {font-size: 8pt; font-family:verdana,helvetica,arial; font-weight:normal;}
+.b {font-size: 8pt; font-family:verdana,helvetica,arial; font-weight:bold;}
+.p {font-color: %PRICECOLOR%; }
+  </style>
+
+  </HEAD>
+
+
+
+  
+
+<SCRIPT> 
+
+var mode = 1;
+
+if (mode == 0){
+    if (name != "shopmain"){
+    document.open();
+    document.writeln('<FRAMESET COLS="*,208" BORDER=0 FRAMEBORDER=NO ' +
+'FRAMESPACING=0>' +
+'<FRAME SRC="' + location + '?x" NAME="shopmain">' +
+'<FRAMESET ROWS="*,130">' +
+'<FRAME SRC="trolley.html" NAME="shoptrolley" MARGINWIDTH=8' +
+' MARGINHEIGHT=5>' +
+'<FRAME SRC="register.html' + location.search +
+'" NAME="shopregister" SCROLLING=NO>' +
+'</FRAMESET>' + '</FRAMESET>' + '<NOFRAMES>');
+    document.close();
+  }
+}
+  
+function addItem(){
+   if (top.location == self.location){     
+       var infoString;
+       infoString = '?add&' + arguments[0] + '	' + arguments[1]+':'+arguments[9]+':'+arguments[10] + '	' + arguments[2] + '	' + arguments[3] + '	' + arguments[4] + '	' + arguments[5] + '	' + arguments[6] + '	' + arguments[7] + '	' + arguments[8]+'	'+arguments[9]+'	'+arguments[10]; 
+       document.open(); 
+       document.writeln('<' + 'SCRIPT' + '>'); 
+       document.writeln('function info(){ return "' + infoString + '"; }');
+       document.writeln('<' + '/' + 'SCRIPT' + '>'); 
+       document.writeln('<FRAMESET COLS="*,208" BORDER=0 FRAMEBORDER=NO ' +
+'FRAMESPACING=0>' +
+'<FRAME SRC="' + location + '?x'+ '" NAME="shopmain">' +
+'<FRAMESET ROWS="*,130">' +
+'<FRAME SRC="trolley.html" NAME="shoptrolley" MARGINWIDTH=8' +
+' MARGINHEIGHT=5>' +
+'<FRAME SRC="register.html' + location.search +
+'" NAME="shopregister" SCROLLING=NO>' +
+'</FRAMESET>' + '</FRAMESET>' + '<NOFRAMES>');
+      document.close();       
+   }       
+   else
+      parent.shopregister.addItem(arguments[0],arguments[1]+':'+arguments[9]+':'+arguments[10],arguments[2],arguments[3],arguments[4],parseInt(arguments[5]),arguments[6],arguments[7],arguments[8],arguments[9],arguments[10]);
+}
+
+function removeItem(code){
+   if (top.location != self.location){           
+       parent.shopregister.removeItem(code);       
+       if (mode == 1 && !parent.shopregister.inTrolley()){
+          top.location = self.location;
+       } 
+   }
+}
+</SCRIPT>
+
+
+
+
+  <BODY TEXT=BLACK BGCOLOR=WHITE LINK=#108162 VLINK=#E020E0 ALINK=#FFFFA6 topmargin=0 leftmargin=0 marginheight=0 marginwidth=0>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<tr>
+<td VALIGN=TOP WIDTH=20% BACKGROUND=s1_homet.png>
+<center><table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=160 BACKGROUND=s1_homet.png>
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td ALIGN=LEFT><img SRC=s1_homet.png BORDER=0 align=TEXTTOP></td>
+
+<td ALIGN=CENTER VALIGN=CENTER WIDTH=155 BACKGROUND=s1_homeback.png><a href="index.html"><img SRC="s1_home.png" BORDER=0 align=TEXTTOP></a>
+<br><img SRC=s1_transbar.png BORDER=0 align=TEXTTOP></td>
+
+<td ALIGN=RIGHT><img SRC=s1_homet.png BORDER=0 align=TEXTTOP></td>
+</tr>
+</table></center>
+</td>
+
+<td VALIGN=TOP><img SRC="s1_homecon.png" BORDER=0 align=TEXTTOP></td>
+
+<td VALIGN=TOP WIDTH=100% BACKGROUND="s1_topwbac.png">
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<tr>
+<td ALIGN=LEFT><img SRC="s1_topwt.png" BORDER=0 align=TEXTTOP></td>
+
+<td ALIGN=LEFT VALIGN=TOP>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 >
+<tr>
+<td ALIGN=LEFT><img SRC="s1_toptran.png" BORDER=0 align=TEXTTOP></td>
+
+<td ALIGN=LEFT VALIGN=TOP><img SRC="s1_top.png" BORDER=0 align=TEXTTOP></td>
+</tr>
+
+<tr>
+<td ALIGN=LEFT></td>
+
+<td ALIGN=LEFT VALIGN=TOP BACKGROUND="s1_transp.png" NOWRAP>
+
+<a href="13.htm"><img SRC="s1_back.png" ALT="Back" BORDER=0 ></a>
+
+<a href="javascript:f1();"><img SRC="s1_add.png" BORDER=0 ></a><a href="javascript:removeItem('AirPods Pro (2nd Generation)')"><img SRC="s1_remove.png" BORDER=0 ></a></td>
+</tr>
+</table>
+</td>
+
+<td ALIGN=RIGHT VALIGN=TOP WIDTH="81"><img SRC="s1_topwcon.png" BORDER=0 align=TEXTTOP></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td VALIGN=TOP WIDTH=20% BACKGROUND=s1_homet.png>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 BACKGROUND=s1_homet.png>
+<tr>
+<td WIDTH=5><img SRC=s1_homet.png BORDER=0 align=TEXTTOP></td>
+
+<td ALIGN=LEFT VALIGN=TOP>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<tr>
+<td WIDTH=0 BACKGROUND="s1_transp.png">
+
+  <table width=100%><tr><td valign=top width=5%><img src="f_2.png"></td><td class=m><a href="index.html">Bitnova</a></td></tr>
+<tr><td valign=top width=5%><img src="g_2.png"></td><td class=m><a href="about.html">Servicios/Productos</a></td></tr>
+<tr><td valign=top width=5%><img src="g_2.png"></td><td class=m><a href="10.htm">iPad Air (13 pulgadas, M3 chip)</a></td></tr>
+<tr><td valign=top width=5%><img src="g_2.png"></td><td class=m><a href="11.htm">MacBook Air (13", M4 chip)</a></td></tr>
+<tr><td valign=top width=5%><img src="g_2.png"></td><td class=m><a href="12.htm">iPhone 16 (128 GB)</a></td></tr>
+<tr><td valign=top width=5%><img src="g_2.png"></td><td class=m><a href="13.htm">Apple Watch Series 10 (GPS)</a></td></tr>
+<tr><td valign=top width=5%><img src="o_2.png"></td><td class=b><a href="14.htm">AirPods Pro (2nd Generation)</a></td></tr>
+<tr><td valign=top width=5%><img src="g_2.png"></td><td class=m><a href="news.html">Noticias</a></td></tr>
+<tr><td valign=top width=5%><img src="g_2.png"></td><td class=m><a href="contact.html">Blogs</a></td></tr>
+<tr><td valign=top width=5%><img src="g_2.png"></td><td class=m><a href="6.htm">Sobre Nosotros</a></td></tr>
+<tr><td valign=top width=5%><img src="g_2.png"></td><td class=m><a href="7.htm">Contacto</a></td></tr>
+<tr><td valign=top width=5%><img src="g_2.png"></td><td class=m><a href="8.htm">Preguntas Frecuentes</a></td></tr>
+<tr><td valign=top width=5%><img src="g_2.png"></td><td class=m><a href="9.htm">Invierta con Nosotros</a></td></tr>
+<tr><td><br></td><td><br></td></tr><tr><tr><td valign=top width=5%><img src="a_2.png"></td><td class=m><a href="http://www.vendercom.com/directory.htm" target=_blank>Other Stores</a></td></tr>
+</table>
+
+
+
+
+<br>
+<table cellspacing=6><tr><td>
+<FORM METHOD="GET" ACTION="http://ecomm.vendercom.com/search">
+<table><tr><td class=b>
+<font color=#108162>Search:</font><br>
+<INPUT name="id" TYPE=HIDDEN value="V21000-00">
+<INPUT name="query" TYPE=TEXT SIZE=15 ALIGN=left>
+</td><td valign=bottom><center><INPUT TYPE="SUBMIT" VALUE="Go">
+</td></tr></table>
+</td></tr></table>
+</FORM>
+
+
+
+
+
+
+<p><img SRC=s1_transbar.png BORDER=0 align=TEXTTOP></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+
+<td ALIGN=LEFT VALIGN=TOP BACKGROUND="s1_right.png">&nbsp;</td>
+<td ALIGN=LEFT VALIGN=TOP>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 width=90%>
+<tr><td VALIGN=TOP>
+<br>
+
+<UL>
+<table width=90% cellspacing=0 cellpadding=0><tr><td>
+<b><font face="Verdana, Arial" color="#666666" size=+2> </td><td align=right width=10%><b><font face="Verdana, Arial" color="#666666" size=+2><a href="javascript:f1();" class=p>$2300.00</a></font></b>
+</td></tr></table>
+<br>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=90%>
+<tr><td width=10%>
+
+
+<br>
+
+<table border=0 cellspacing=0 CELLPADDING=0>
+<tr><td>
+</a>
+</td></tr>
+</table>
+
+</td>
+
+<td ALIGN=LEFT VALIGN=TOP>
+
+
+  <TABLE>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <FORM NAME=form1>    
+  <TR><TD></TD><TD><INPUT NAME=OPTION1 TYPE=HIDDEN></TD></TR>
+  <TR><TD></TD><TD><INPUT NAME=OPTION2 TYPE=HIDDEN></TD></TR>
+  </FORM>
+  </TABLE>
+
+</td></tr></table>
+
+<br>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirPods Pro - Bitnova</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; }
+        header, footer { background: #f4f4f4; padding: 10px; text-align: center; }
+        main { padding: 20px; }
+        img { max-width: 100%; height: auto; }
+        .add-to-cart { background-color: #007bff; color: white; padding: 5px 10px; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <h1>AirPods Pro (2nd Generation)</h1>
+        <p>Los AirPods Pro de segunda generación ofrecen cancelación de ruido activa, audio espacial y hasta 30 horas de batería con el estuche. Compatibles con iOS y carga USB-C. Precio: Q 2,300.</p>
+        <img src="https://istore.gt/wp-content/uploads/2023/11/ART004795i.jpg" alt="AirPods Pro 2">
+        <p><a href="#" class="add-to-cart">Agregar al carrito</a></p>
+        <p><a href="index.html">Regresar a la pantalla principal</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Bitnova. Todos los derechos reservados. Guatemala.</p>
+        <p><a href="contacto.html">Contáctenos</a> | <a href="preguntas-frecuentes.html">Ayuda</a></p>
+        <section>
+            <h3>Síguenos en redes sociales</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/permalink.php?story_fbid=122094730916996946&id=61579908384570&substory_index=1309927210689791&rdid=EmwTKA5X4HqYgLEi#">Facebook</a></li>
+                <li><a href="https://www.instagram.com/bitno.va/">Instagram</a></li>
+                <li><a href="https://x.com/Bitnovagt">X</a></li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
+<br><br>
+</td></tr></table>
+
+
+
+
+</center>
+
+
+</td>
+</tr>
+
+<tr>
+<td ALIGN=CENTER VALIGN=TOP>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100% BACKGROUND="s1_bottom.png">
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td ALIGN=LEFT WIDTH=100%><img SRC="s1_l-b.png" BORDER=0 align=TEXTTOP></td>
+
+<td ALIGN=CENTER VALIGN=CENTER WIDTH=100%><img SRC="s1_transp.png" BORDER=0 ></td>
+</tr>
+</table>
+</td>
+
+<td ALIGN=LEFT VALIGN=TOP BACKGROUND="s1_r-b.png"><img SRC="s1_transp.png" BORDER=0 ></td>
+
+<td ALIGN=LEFT VALIGN=TOP>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=100%>
+<tr>
+<td VALIGN=TOP WIDTH="14"><img SRC="s1_transp.png"></td>
+
+<td WIDTH=100%><img SRC="s1_transp.png" BORDER=0 ></td>
+
+<td WIDTH="23"><img SRC="s1_transp.png" BORDER=0 ></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+</body>
+
+</html>
+<SCRIPT>function f1(){var option1=document.form1.OPTION1.value;var option2=document.form1.OPTION2.value;addItem('14.htm','AirPods Pro (2nd Generation)','AirPods Pro %282nd Generation%29','2300.00','',1,0,0,0,option1,option2);}</SCRIPT>
